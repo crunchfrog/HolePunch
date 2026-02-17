@@ -1,0 +1,152 @@
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ─── Windows ──────────────────────────────────────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ─── Node / JavaScript / TypeScript ───────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.npm
+*.tsbuildinfo
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+coverage/
+*.lcov
+.nyc_output/
+
+# ─── React Native ─────────────────────────────────────────────────────────────
+# Metro bundler
+.metro-health-check*
+
+# Buck / Gradle caches
+.buck/
+buck-out/
+*.keystore
+!debug.keystore
+
+# Android
+android/app/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+android/app/release/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/DerivedData/
+ios/**/*.xcuserstate
+ios/.xcode.env.local
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Watchman
+.watchmanconfig
+
+# Flipper
+ios/Flipper*
+ios/.flipper/
+
+# ─── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+GoogleService-Info.plist
+google-services.json
+
+# ─── Editors & IDEs ───────────────────────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.iml
+*.iws
+*.ipr
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+coverage/
+.detox/
+e2e/artifacts/
+
+# ─── Claude ───────────────────────────────────────────────────────────────────
+.claude/settings.local.json
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.log
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.stylelintcache
